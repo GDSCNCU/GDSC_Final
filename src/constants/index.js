@@ -2,51 +2,22 @@ export const chartData = [
   {
     title: "各能源發電占比",
     data: [
-      { name: "A", value: 400 },
-      { name: "B", value: 300 },
-      { name: "C", value: 300 },
-      { name: "D", value: 200 },
+      { name: "核能", value: 400 },
+      { name: "火力", value: 300 },
+      { name: "生質能", value: 300 },
+      { name: "再生能源", value: 200 },
     ],
     color: ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"],
   },
   {
-    title: "風力發電",
+    title: "綠色能源",
     data: [
-      { name: "A", value: 100 },
-      { name: "B", value: 200 },
-      { name: "C", value: 300 },
-      { name: "D", value: 400 },
+      { name: "風力", value: 100 },
+      { name: "水力", value: 200 },
+      { name: "太陽能", value: 300 },
+      { name: "潮汐能", value: 400 },
     ],
     color: ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"],
   },
-  {
-    title: "潮汐發電",
-    data: [
-      { name: "A", value: 400 },
-      { name: "B", value: 300 },
-      { name: "C", value: 300 },
-      { name: "D", value: 200 },
-    ],
-    color: ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"],
-  },
-  {
-    title: "水力發電",
-    data: [
-      { name: "A", value: 400 },
-      { name: "B", value: 300 },
-      { name: "C", value: 300 },
-      { name: "D", value: 200 },
-    ],
-    color: ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"],
-  },
-  {
-    title: "生質能發電",
-    data: [
-      { name: "A", value: 400 },
-      { name: "B", value: 300 },
-      { name: "C", value: 300 },
-      { name: "D", value: 200 },
-    ],
-    color: ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"],
-  },
+  
 ];
